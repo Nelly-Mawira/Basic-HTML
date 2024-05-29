@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../gittrial/.idea/gittrial.iml" filepath="$PROJECT_DIR$/../gittrial/.idea/gittrial.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/may intake.iml" filepath="$PROJECT_DIR$/.idea/may intake.iml" />
     </modules>
   </component>
