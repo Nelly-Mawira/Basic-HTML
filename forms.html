@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student RegForm</title>
+</head>
+<body>
+<div class="myform">
+<h2>Registration Form</h2>
+    <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" required placeholder="Enter First Name"><br><br>
+        <label for="lname">Lat Name</label>
+        <input type="text" id="lnmae"required placeholder="Enter Last Name"><br><br>
+        <label for="barua">Email Address</label>
+        <input type="email"id="barua" required placeholder="Enter Email Address"><br><br>
+        <label for="pno">Phone Number</label>
+        <input type="text"id="pno" required placeholder="Enter Phone Number"><br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female"name="gender">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender"><br><br>
+        <label for="Course">Course Taken</label>
+        <select name="Course" id="Course">
+            <option value="js">Java Script</option>
+            <option value="django">Django</option>
+            <option value="react">Reactjs</option>
+            <option value="html">HTML</option>
+            <option value="python">Python</option>
+        </select><br><br>
+        <label for="pic">Upload Picture</label>
+        <input type="file" id="pic"><br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" required placeholder="Enter DOB"><br><br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" required placeholder="Enter Password"><br><br>
+        <input type="submit" value="Register">
+    </form>
+</div>
+</body>
+</html>
