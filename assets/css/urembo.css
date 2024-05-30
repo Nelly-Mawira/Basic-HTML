@@ -20,6 +20,21 @@ h2{
     color: black;
     text-align: center;
 }
-p{
+p {
     color: blueviolet;
-    font-family: ;
+    font-family: Chandas;
+    font-size: 20px;
+}
+body{
+    background-image: url("background.jpeg");
+    background-size: cover;
+}
+th,td{
+    border: 5px solid crimson;
+    padding: 20px;
+    font-family: Chandas;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
